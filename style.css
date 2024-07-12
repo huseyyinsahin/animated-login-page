@@ -128,3 +128,24 @@
     transform: translateY(500px);
   }
 }
+
+.bird {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  width: 100px;
+  height: 100px;
+  animation: bird 10s linear infinite;
+}
+.bird img {
+  height: 100%;
+  width: 100%;
+}
+@keyframes bird {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(1500px);
+  }
+}
